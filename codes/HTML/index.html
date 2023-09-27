@@ -1,0 +1,493 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio Hardik Rai</title>
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+	<script src="https://kit.fontawesome.com/740f3f7796.js" crossorigin="anonymous"></script>
+	<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+	<script>
+    // Get the submit button element
+    var submitButton = document.getElementById('submitBtn');
+
+    // Add click event listener to the submit button
+    submitButton.addEventListener('click', function(event) {
+        // Prevent the default form submission
+        event.preventDefault();
+
+        // Show an alert when the button is clicked
+        alert('Form submitted!');
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+</head>
+<body><!-- 
+	<style>
+		body{
+			background-image: url("illustration01.png");
+			background-size: cover;
+	background-position: right;
+
+		}
+	</style> -->
+	<div id="header">
+			<nav>
+				<img src="hardikh.png" class="logo">
+				<ul id="sidemenu">
+					<!-- <li><a href="#header">Home</li></a> -->
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact Me</a></li>
+					<i class="fas fa-times" onclick="closemenu()"></i>
+					<!-- <div class="socials">
+						<a href="https://www.facebook.com/profile.php?id=100090522416211"><i class="fa-brands fa-facebook"></i></a>
+						<a href="https://www.instagram.com/hardkrai/"><i class="fa-brands fa-square-instagram"></i></a>
+						<a href="https://twitter.com/fookinhellmaet/likes"><i class="fa-brands fa-square-twitter"></i></a>
+						<a href="https://www.linkedin.com/in/hardik-rai-428330225/"><i class="fa-brands fa-linkedin"></i></a>
+						
+					</div>  -->
+
+				</ul>
+				<i class="fas fa-bars" onclick="openmenu()"></i>
+			</nav>
+
+
+
+
+
+			<!-- Use it like any other HTML element -->
+				<!-- <model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="shared-assets/models/NeilArmstrong.glb" ar environment-image="shared-assets/environments/moon_1k.hdr" poster="shared-assets/models/NeilArmstrong.webp" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<!-- <div class="socials">
+						<a href="https://www.facebook.com/profile.php?id=100090522416211"><i class="fa-brands fa-facebook"></i></a>
+						<a href="https://www.instagram.com/hardkrai/"><i class="fa-brands fa-square-instagram"></i></a>
+						<a href="https://twitter.com/fookinhellmaet/likes"><i class="fa-brands fa-square-twitter"></i></a>
+						<a href="https://www.linkedin.com/in/hardik-rai-428330225/"><i class="fa-brands fa-linkedin"></i></a>
+					</div>  -->
+			<div class="header-text">
+
+				<h1>Hi, I'm Hardik</h1>
+								<p><span class="multitext"></span></p>
+			</div><!-- 
+						<div class="imgbox">
+		<img src="illustration 1.svg"></div> -->
+		<!-- <div class="container">
+		
+	</div> -->
+	</div>
+
+
+<div id="abouttoend">
+<div id="section"> 
+
+	<!-- ----------about ----------------------->
+	<div id="about">
+		<div class="container reveal">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="aboutchar2.svg">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>I'm a student currently pursuing bachelors in technology with specialization in information technology. Along with this I also specialize and make projects in hardware sector using Arduino technology. And along with these two, I also partake in graphic design and traditional animation.</p>
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('projects')">Projects</p>
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+					</div>
+					<div class="tab-contents active-tab" id="skills">
+						
+
+
+						
+						<style type="text/css">
+							li{
+								text-align: justify;/*
+								text-overflow: 150px;*/
+								display: block;
+								margin: 10px 10px;
+								list-style: none ;
+							}
+							span{
+								color: #fff;
+							
+								font-size: 18px;
+							}
+						</style>
+
+
+
+
+						<ul>
+							<li><span style="font-size: 18px;">UI/UX</span><br>Designing Web/App interfaces</li>
+							<li><span style="font-size: 18px;">Web Development</span><br>Designing Web Apps</li>
+							<li><span style="font-size: 18px;">Graphic Design</span><br>Designing vector images </li>
+							<li><span style="font-size: 18px;">Animation</span><br>Designing And Creating Traditional and digital animation</li>
+							</ul>
+					</div>
+					
+
+
+<!-- --------------------projects-------------------------------------------------- -->
+
+
+					<div class="tab-contents" id="projects">
+						
+
+
+						
+						<style type="text/css">
+							li{
+								margin: 10px 0;
+								list-style: none ;
+							}
+							span{
+								color: #fff;
+							
+								font-size: 18px;
+							}
+						</style>
+
+
+
+
+						<ul>
+							<li><span style="font-size: 18px;">Web Development</span><br>Designed multiple Web Apps using Html5, CSS, and JS</li></ul>
+							<li><span>IOT Based automated system</span><br>Project on home automation and electricity conservation </li></ul>
+							<li><span>Portfolio website</span><br>Designed a personal Website as a portfolio for professional use</li></ul>
+					</div>
+
+
+<!-- ---------------------------- education------------------------------------ -->
+
+					<div class="tab-contents" id="education">
+						
+
+
+						
+						<style type="text/css">
+							li{
+								margin: 10px 0;
+								list-style: none ;
+							}
+							span{
+
+								color: #fff;
+							
+								font-size: 18px;
+							}
+						</style>
+
+
+
+
+						<ul>
+							<li><span style="font-size: 18px;">2018-2019</span><br>Graduated from 10th standard</li></ul>
+							<li><span>2019-2022</span><br>Graduated from Pusa Institute of Technology with Diploma in Electronics and Communication Engineering</li></ul>
+							<li><span>2022-Present</span><br>Pursiung Bachelor in technology at Maharaja Agrasen Institute of Technology with specialization in Information Technology</li></ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+	<!-- -----services----------- -->
+	<div id="services">
+		<div class="container reveal">
+			<h1 class="sub-title">My Services</h1>
+			<div class="services-list">
+				<div class="card"><i class="fa-solid fa-expand"></i>
+					<h1>Web Design</h1>
+					<p>Designing responsive websites and web applications such as this mainly with the use of HTML and CSS.
+					</p>
+					<!-- <a href="#">Learn more</a> -->
+				</div>
+				
+				<div class="card">
+					<i class="fa-solid fa-code"></i>
+					<h1>UI/UX Design</h1>
+					<p>A service that goes hand in hand, designing user interfaces of said web applications and webpages.
+					</p>
+					<!-- <a href="#">Learn more</a> -->
+				</div>
+
+				<div class="card"><i class="fa-brands fa-codepen"></i>
+					<h1>Graphic Design</h1>
+					<p>Ranging from Vector designs to more traditional graphics that use PNGs as the backbone for the file structure.
+					</p>
+					<!-- <a href="#">Learn more</a> -->
+				</div>
+				<div class="card"><i class="fa-solid fa-compass-drafting"></i>
+					<h1>Animation</h1>
+					<p>Done both Traditionally(on paper) and digitally, ranging from simple line and stick figure animations to complex thought out scenes.
+					</p>
+					<!-- <a href="#">Learn more</a> -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- -----------PORTFOLIO----------------------- -->
+	<div id="portfolio">
+		<div class="container reveal">
+			<h1 class="sub-title">My Work</h1>
+			<div class="work-list">
+				<div class="work">
+					<img src="music.jpg">
+					<div class="layer">
+
+						<h3>Music Blog Page</h3>
+						<h4>A website that discussed musical artists and various projects they have made. Based completley on HTML5 and CSS</h4>
+						<p><i class="fa-solid fa-expand fa-spin"></i></p>
+					</div>
+				</div>
+
+				<div class="work">
+					<img src="iot.jpeg">
+					<div class="layer">
+
+						<h3>IOT Based Home Automation</h3>
+						<h4>A circuit system that used Arduino Uno and electrical components to make devices such as light and sound sensor switches</h4>
+						<p><i class="fa-solid fa-bolt fa-spin"></i></p>
+					</div>
+				</div>
+
+				<div class="work">
+					<img src="drawing.jpg">
+					<div class="layer">
+
+						<h3>Animations</h3>
+						<h4>A collection of various snippets of test animations as well as fully fleged ones ranging from traditional medium to digital animations.</h4>
+						<p><i class="fa-solid fa-compass-drafting fa-spin"></i></p>
+					</div>
+				</div>
+
+				<!-- <div class="work">
+					<img src="image1.png">
+					<div class="layer">
+
+						<h3>Music Web Blog</h3>
+						<p>A website that discussed musical artists and various projects they have made</p>
+						<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+					</div>-->
+				</div>
+ 
+			</div>
+			
+		</div>
+	</div>
+
+	<a href="#" class="btn reveal">▲</a>
+
+
+
+	<!-- ---------------------------contact---------------------------- -->
+	<div id="contact">
+		<div class="container reveal">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p><i class="fa-sharp fa-solid fa-envelope"></i> raihardik2004@gmail.com</p>
+					<p><i class="fa-solid fa-square-phone"></i> 9654870165</p>
+					<div class="social-icons">
+						<a href="https://www.facebook.com/profile.php?id=100090522416211"><i class="fa-brands fa-facebook"></i></a>
+						<a href="https://www.instagram.com/hardkrai/"><i class="fa-brands fa-square-instagram"></i></a>
+						<a href="https://twitter.com/fookinhellmaet/likes"><i class="fa-brands fa-square-twitter"></i></a>
+						<a href="https://www.linkedin.com/in/hardik-rai-428330225/"><i class="fa-brands fa-linkedin"></i></a>
+					</div>
+					<a href="SVG/CVhardikrai.pdf"download class="btn btn2">Download CV</a>
+				</div>
+				<div class="contact-right">
+					<form  name="submit-to-google-sheet">
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="email" placeholder="Your email" required>
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<button type="submit" class="btn btn2 ">Submit</button>
+					</form>
+					<span id="msg"></span>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>Copyright <span>&copy;</span> Hardik Rai.</p>
+		</div><!-- 
+		<div class="loader-wrapper">
+			<span class="loader">
+				<span class="loader-inner"></span>
+			</span>
+		</div> -->
+	<!-- </div> -->
+	</div>
+	</div>
+
+
+
+<!-- 
+
+
+
+
+<script type="text/javascript">
+	window.addEventListener("scroll", function(){
+		var header = document.querySelector("header");
+		header.classList.toggle("sticky", window.scrollY > 0);
+	})
+</script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script >
+	var typingEffect = new Typed(".multitext",{
+		strings : ["A Programmer.","A Graphic Designer.", "An Electronics Engineer.", "An Animator."],
+		loop : true,
+		typeSpeed : 100,
+		backSpeed : 80,
+		backDelay : 1300
+	})
+</script>
+
+<script type="text/javascript">
+	var tablinks=document.getElementsByClassName("tab-links");
+	var tabcontents=document.getElementsByClassName("tab-contents");
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+
+
+
+</script>
+
+<script type="text/javascript">
+	var sidemenu = document.getElementById("sidemenu");
+
+	function openmenu(){
+		sidemenu.style.right = "0";
+	}
+
+	function closemenu(){
+		sidemenu.style.right = "-200px";
+	}
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxy65Jijzfx4calCFEAqcAwOT1M7S1csTpv0XIFIvKvrErJ2j-bcMnKRjlLnL3BghJ3/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML = "Message sent successfully!!"
+      	setTimeout(function(){
+      		msg.innerHTML = ""
+      	},2000)
+      	form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<!-- <script type="text/javascript">
+	$(window).on("load",function(){
+		$(".loader-wrapper").fadeOut("slow");
+	});
+</script>
+
+ -->
+
+<script type="text/javascript">
+	window.addEventListener('scroll', reveal);
+
+	function reveal(){
+
+	var reveals = document.querySelectorAll('.reveal');
+	for(var i = 0; i < reveals.length; i++){
+		var windowheight = window.innerHeight;
+		var revealtop = reveals[i].getBoundingClientRect().top;
+		var revealpoint = 150;
+		if(revealtop < windowheight - revealpoint){
+			reveals[i].classList.add('active');
+		}
+		else{
+			reveals[i].classList.remove('active');
+		}
+	}
+	}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</body>
+</html>
